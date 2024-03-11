@@ -88,7 +88,6 @@ section img {
 }
 
 .contact-methods {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -96,7 +95,7 @@ form input,
 form textarea,
 form button {
     display: block;
-    width: 32px;
+    width: 300px;
     margin-bottom: 8px;
     padding: 8px;
 }
@@ -112,17 +111,17 @@ section h3 {
 
 form, #fale {
     position: relative;
-    left: -106px;
-    top: 50px;
 }
 
 #nos {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 100%; /* Ou qualquer largura desejada */
 }
 
 #venha {
+    display: flex;
     position: relative;
     right: 80px;
 }
