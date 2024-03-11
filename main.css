@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Rock Salt", cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "RocknRoll One", sans-serif;
+}
+
+header {
+    padding:16px 0;
+    background-color: rgb(231, 209, 84);
+    color: rgba(128, 128, 128, 0.889);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: rgba(128, 128, 128, 0.889);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin: 16px;
+}
+
+section {
+    color: rgba(128, 128, 128, 0.889);
+}
+
+section p {
+    margin: 8px;
+    font-family: "Rock Salt", cursive;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 32px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form, #fale {
+    position: relative;
+    left: -106px;
+    top: 50px;
+}
+
+#nos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Ou qualquer largura desejada */
+}
+
+#venha {
+    position: relative;
+    right: 80px;
+}
+
+form button {
+    background-color:rgb(231, 209, 84); 
+    color: rgba(128, 128, 128, 0.889);
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(169, 155, 72); 
+}
+
+form:focus, textarea:focus {
+    outline-color:rgb(231, 209, 84);
+}
+
+footer {
+    background-color: rgb(231, 209, 84); 
+    color: rgba(128, 128, 128, 0.889);
+    padding: 16px 0;
+}
+
+#band {
+    background-color: rgba(196, 173, 43, 0.69);
+}
